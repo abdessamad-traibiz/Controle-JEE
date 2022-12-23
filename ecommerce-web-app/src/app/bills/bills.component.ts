@@ -8,7 +8,7 @@ import { ActivatedRoute, Router } from '@angular/router';
   styleUrls: ['./bills.component.css']
 })
 export class BillsComponent implements OnInit{
-  
+
   customerID! : number;
   bills : any;
   constructor(private http: HttpClient, private router: Router, private route: ActivatedRoute) {
@@ -16,7 +16,7 @@ export class BillsComponent implements OnInit{
   }
 
   ngOnInit(): void {
-    this.http.get(`http://localhost:8888/BILLING-SERVICE/bills/search/byCustomerID?customerID=${this.customerID}&projection=fullBill`)
+    this.http.get("http://localhost:8888/BILLING-SERVICE/bills/search/byCustomerID?customerID="+this.customerID+"&projection=fullBill")
       .subscribe({
       next : (data) => {
         this.bills = data;

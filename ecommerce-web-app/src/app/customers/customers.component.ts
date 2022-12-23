@@ -24,6 +24,6 @@ export class CustomersComponent implements OnInit{
   }
 
   getBills(customer: any) {
-    this.router.navigateByUrl(`/bills/${customer.id}`)
-  } 
+    this.router.navigateByUrl("/bill-details/"+customer.id)
+  }
 }

@@ -16,7 +16,7 @@ export class BillsDetailsComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.http.get(`http://localhost:8888/BILLING-SERVICE/fullBill/${this.billID}`).subscribe({
+    this.http.get("http://localhost:8888/BILLING-SERVICE/fullBill/"+this.billID).subscribe({
       next : (data)=>{
         this.billDetails = data;
       },

@@ -21,15 +21,16 @@ public class CustomerServiceApplication   {
 	@Bean
 	CommandLineRunner start(CustomerRepository customerRepository  ){
 		return  args -> {
-			customerRepository.save(new Customer(null,"Abdessamad","abdessamad@gmail.com"));
-			customerRepository.save(new Customer(null,"Amine","amine@gmail.com"));
-			customerRepository.save(new Customer(null,"Aymen","aymen@gmail.com"));
-			customerRepository.save(new Customer(null,"ahmed","ahmed@gmail.com"));
-			customerRepository.save(new Customer(null,"Amal","amal@gmail.com"));
+			customerRepository.save(new Customer(null,"Abdessamad","Abdessamad@gmail.com"));
+			customerRepository.save(new Customer(null,"Reda","reda@gmail.com"));
+			customerRepository.save(new Customer(null,"Amine","Amine@gmail.com"));
+			customerRepository.save(new Customer(null,"Zakaria","zakaria@gmail.com"));
+			customerRepository.save(new Customer(null,"Simo","simo@gmail.com"));
 			customerRepository.findAll().forEach(customer -> {
 				System.out.println(customer.toString());
 			});
 		};
+
 	}
 
 }

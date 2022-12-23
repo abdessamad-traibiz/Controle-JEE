@@ -32,10 +32,10 @@
                 <tbody>
                     <tr *ngFor="let product of billDetails.productItems">
                     <td>{{ product.id }}</td>
-                        <td class="text-end">{{ product.name }}</td>
-                        <td class="text-end">{{ product.price | number : '.2' }}</td>
-                        <td class="text-end" style="padding-left: 30px;">{{ product.quantity }}</td>
-                        <td class="text-end">{{product.total | number : '.2'}}</td>
+                        <td class="text-end">{{ product.productName }}</td>
+                        <td class="text-end">{{ product.price | number : '.2'}}</td>
+                        <td class="text-end">{{ product.quantity }}</td>
+                        <td class="text-end">{{product.amount | number : '.2'}}</td>
                     </tr>
                     <tr class="bg-dark text-white">
                         <td colspan="5" class="text-end">Total</td>
