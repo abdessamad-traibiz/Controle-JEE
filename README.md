@@ -31,11 +31,11 @@
   <img src="https://user-images.githubusercontent.com/74361043/207845098-8d43032c-d999-4269-87d7-21550dcf2a16.png">
 <h1><i>4-Partie Front Angular :</i><h1>
 <ul>Liste des produits</ul>
-<img src="https://user-images.githubusercontent.com/74361043/207729026-68fa772c-384a-4246-bdb4-5f1573f86feb.png">
+<img src="https://user-images.githubusercontent.com/74361043/209443474-9ad6c822-34ea-448c-b5b5-eb6dd0c311be.png">
 <ul>Liste des clients</ul>
-<img src="https://user-images.githubusercontent.com/74361043/207729271-aa8da8c7-f7a3-4bd0-9817-348e9a474264.png">
+<img src="https://user-images.githubusercontent.com/74361043/209443453-1840a693-25f1-4302-86dc-b040930aef84.png">
 <ul>Liste des factures d'un client</ul>
-<img src="https://user-images.githubusercontent.com/74361043/207729424-62d6c16f-f472-4761-b8a3-f1ca9b540eb6.png">
+<img src="https://user-images.githubusercontent.com/74361043/209443487-71023df3-519c-4af4-a4c6-9d367dee5e3e.png">
 <ul>Details d'une facture d'un client</ul>
 <img src="https://user-images.githubusercontent.com/74361043/207732271-9d842f44-6c78-4f27-bfe6-716928e6966e.png">
 <h1><i>5-Keycloak :</i><h1>
